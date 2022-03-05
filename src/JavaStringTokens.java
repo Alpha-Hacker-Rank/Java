@@ -1,5 +1,6 @@
 //Mindula Dilthushan
 //Hacker Rank - Java
+
 import java.util.*;
 
 public class JavaStringTokens {
@@ -10,11 +11,16 @@ public class JavaStringTokens {
         // Write your code here.
         scan.close();
 
-        String[] splitString = (s.replaceAll("^[\\W+\\s+]", "").split("[\\s!,?._'@]+"));
-        System.out.println(splitString.length);
-        for (String string : splitString) {
-            System.out.println(string);
+        if (s.trim().isEmpty()) {
+            System.out.println(0);
+        } else {
+            String[] splitString = (s.replaceAll("^\\W+", "").split("[\\s!,?._'@]+"));
+            System.out.println(splitString.length);
+            for (String string : splitString) {
+                System.out.println(string);
+            }
         }
     }
 }
+
 
