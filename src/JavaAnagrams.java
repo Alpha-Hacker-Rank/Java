@@ -1,6 +1,5 @@
 //Mindula Dilthushan
 //Hacker Rank - Java
-
 import java.util.Scanner;
 
 public class JavaAnagrams {
