@@ -1,3 +1,5 @@
+//Mindula Dilthushan
+//Hacker Rank - Java
 import java.util.Scanner;
 
 class JavaRegex {
