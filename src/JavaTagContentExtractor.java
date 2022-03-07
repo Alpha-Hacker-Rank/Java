@@ -3,7 +3,7 @@
 import java.util.*;
 import java.util.regex.*;
 
-public class TagContentExtractor {
+public class JavaTagContentExtractor {
 
     public static void main(String[] args) {
 
