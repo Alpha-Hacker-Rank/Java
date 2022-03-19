@@ -1,6 +1,5 @@
 //Mindula Dilthushan
 //Hacker Rank - Java
-
 import java.util.*;
 
 public class JavaList {
