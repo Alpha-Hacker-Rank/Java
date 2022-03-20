@@ -1,5 +1,8 @@
-//Mindula Dilthushan
-//Hacker Rank - Java
+/**
+ * Mindula Dilthushan
+ * Hacker Rank - Java
+ * minduladilthushan1@gmail.com
+ */
 import java.util.*;
 import java.text.*;
 
@@ -11,7 +14,6 @@ public class JavaCurrencyFormatter {
         scanner.close();
 
         // Write your code here.
-
         NumberFormat n = NumberFormat.getCurrencyInstance(Locale.US);
         String us = n.format(payment);
         NumberFormat n1 = NumberFormat.getCurrencyInstance(new Locale("en", "IN"));

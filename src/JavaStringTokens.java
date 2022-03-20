@@ -1,6 +1,8 @@
-//Mindula Dilthushan
-//Hacker Rank - Java
-
+/**
+ * Mindula Dilthushan
+ * Hacker Rank - Java
+ * minduladilthushan1@gmail.com
+ */
 import java.util.*;
 
 public class JavaStringTokens {

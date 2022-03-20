@@ -1,10 +1,12 @@
-//Mindula Dilthushan
-//Hacker Rank - Java
+/**
+ * Mindula Dilthushan
+ * Hacker Rank - Java
+ * minduladilthushan1@gmail.com
+ */
 import java.io.*;
 import java.time.LocalDate;
 
 class Result {
-
     /*
      * Complete the 'findDay' function below.
      *
@@ -14,7 +16,6 @@ class Result {
      *  2. INTEGER day
      *  3. INTEGER year
      */
-
     public static String findDay(int month, int day, int year) {
         int d = Integer.valueOf(day);
         int m = Integer.valueOf(month);
@@ -22,7 +23,6 @@ class Result {
         LocalDate date = LocalDate.of(y, m, d);
         return date.getDayOfWeek().toString();
     }
-
 }
 
 public class JavaDateAndTime {
@@ -33,18 +33,13 @@ public class JavaDateAndTime {
         BufferedWriter bufferedWriter = new BufferedWriter(new FileWriter(System.getenv("OUTPUT_PATH")));
 
         String[] firstMultipleInput = bufferedReader.readLine().replaceAll("\\s+$", "").split(" ");
-
         int month = Integer.parseInt(firstMultipleInput[0]);
-
         int day = Integer.parseInt(firstMultipleInput[1]);
-
         int year = Integer.parseInt(firstMultipleInput[2]);
-
         String res = Result.findDay(month, day, year);
 
         bufferedWriter.write(res);
         bufferedWriter.newLine();
-
         bufferedReader.close();
         bufferedWriter.close();
     }
