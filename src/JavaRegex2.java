@@ -1,6 +1,8 @@
-//Mindula Dilthushan
-//Hacker Rank - Java
-
+/**
+ * Mindula Dilthushan
+ * Hacker Rank - Java
+ * minduladilthushan1@gmail.com
+ */
 import java.util.Scanner;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
